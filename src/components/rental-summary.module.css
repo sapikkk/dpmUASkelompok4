@@ -1,0 +1,230 @@
+.carwashSummary,
+.pricesMayChange {
+  align-self: stretch;
+  position: relative;
+  white-space: pre-wrap;
+}
+.carwashSummary {
+  letter-spacing: -0.02em;
+  line-height: 150%;
+}
+.pricesMayChange {
+  font-size: var(--body-caption-regular-size);
+  line-height: 160%;
+  font-weight: 500;
+  color: var(--secondary-300);
+}
+.carwashSummaryParent {
+  align-self: stretch;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.carIcon {
+  position: relative;
+  border-radius: var(--br-5xs);
+  width: 116px;
+  height: 80px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.koenigseggAgera {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+}
+.wilkenzzz {
+  position: relative;
+  font-size: var(--body-caption-regular-size);
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: var(--color-steelblue-100);
+  display: flex;
+  align-items: center;
+  width: 104px;
+}
+.koenigseggAgeraParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.carParent,
+.frameWrapper,
+.rentalSummaryInner {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+}
+.carParent,
+.rentalSummaryInner {
+  flex-direction: row;
+}
+.carParent {
+  gap: var(--gap-base);
+}
+.rentalSummaryInner {
+  align-self: stretch;
+  padding: 0 var(--padding-smi) 0 0;
+}
+.border {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--color-lightsteelblue-400);
+  box-sizing: border-box;
+  height: 1px;
+}
+.admin,
+.subtotal {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+.admin {
+  align-self: stretch;
+}
+.subtotalParent {
+  width: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.rp250000,
+.rp5000 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+}
+.rp250000Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: right;
+  font-size: var(--bold-type16-size);
+  color: var(--secondary-500);
+}
+.frameParent {
+  align-self: stretch;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-11xs) 0 var(--padding-12xs);
+  box-sizing: border-box;
+  font-size: var(--body-caption-regular-size);
+  color: var(--secondary-300);
+}
+.applyNow,
+.applyPromoCode {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.applyNow {
+  font-weight: 600;
+  color: var(--secondary-500);
+  text-align: right;
+}
+.promo,
+.promoWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.promo {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-100);
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-xl);
+}
+.promoWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) var(--padding-xs) 0;
+  font-size: var(--body-caption-regular-size);
+  color: var(--secondary-300);
+}
+.rp255000,
+.totalPrice {
+  position: absolute;
+  top: 0;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+}
+.totalPrice {
+  left: 0;
+  white-space: pre-wrap;
+  width: 140px;
+  height: 24px;
+}
+.rp255000 {
+  left: 179px;
+  font-weight: 600;
+  text-align: right;
+  width: 116px;
+  height: 48px;
+}
+.totalPriceParent {
+  align-self: stretch;
+  position: relative;
+  height: 48px;
+}
+.overallPriceCare {
+  position: relative;
+  font-size: var(--body-caption-regular-size);
+  letter-spacing: -0.01em;
+  color: var(--secondary-300);
+  display: flex;
+  align-items: center;
+  width: 140px;
+  margin-top: -20px;
+}
+.frameGroup,
+.rentalSummary {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+}
+.rentalSummary {
+  border-radius: var(--br-3xs);
+  background-color: var(--ios-neutral-background-1-rest);
+  width: 327px;
+  height: 424px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  padding: var(--padding-base) var(--padding-mini) var(--padding-base)
+    var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--bold-type16-size);
+  color: var(--secondary-500);
+  font-family: var(--body-caption-regular);
+}

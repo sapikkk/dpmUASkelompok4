@@ -1,0 +1,115 @@
+.profileIcon {
+  position: absolute;
+  margin: 0 !important;
+  top: 2px;
+  right: 30.5px;
+  width: 24px;
+  height: 24px;
+}
+.home2Icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.home {
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  z-index: 1;
+}
+.home2Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--colors-brand-black);
+}
+.addIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.tambah {
+  position: relative;
+  letter-spacing: 0.01em;
+  z-index: 1;
+}
+.addParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 30px;
+}
+.menuIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.pantau {
+  position: relative;
+  letter-spacing: 0.01em;
+  z-index: 1;
+}
+.menuParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 26px;
+}
+.profile {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.01em;
+  display: inline-block;
+  min-width: 24px;
+  z-index: 1;
+}
+.frameGroup,
+.profileParent {
+  display: flex;
+  flex-direction: row;
+}
+.frameGroup {
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.profileParent {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+  position: relative;
+}
+.homeIndicator1 {
+  position: absolute;
+  bottom: 8px;
+  left: calc(50% - 66.5px);
+  border-radius: var(--br-81xl);
+  background-color: var(--colors-brand-black);
+  width: 134px;
+  height: 5px;
+}
+.homeIndicator {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--ios-neutral-background-1-rest);
+  height: 34px;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  text-align: left;
+  font-size: var(--body-caption-regular-size);
+  color: var(--colors-grey-grey-150);
+  font-family: var(--body-caption-regular);
+}

@@ -1,0 +1,63 @@
+.cardFluent2Parent,
+.recomendationCleaning {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.cardFluent2Parent {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+}
+.recomendationCleaning {
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  padding-right: var(--padding-xl);
+}
+.catalogRecomendation,
+.recomendationCleaningWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+}
+.recomendationCleaningWrapper {
+  align-self: stretch;
+}
+.catalogRecomendation {
+  width: 375px;
+  height: 240px;
+  overflow-x: auto;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.dropOffParent,
+.homeScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dropOffParent {
+  align-self: stretch;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--semibold-type14-size);
+  color: var(--secondary-300);
+  font-family: var(--body-caption-regular);
+}
+.homeScreen {
+  position: relative;
+  background-color: var(--ios-neutral-background-1-rest);
+  width: 100%;
+  gap: 31px;
+  letter-spacing: normal;
+}

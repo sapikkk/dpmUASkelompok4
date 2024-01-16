@@ -1,0 +1,575 @@
+.icon,
+.in33M {
+  position: relative;
+}
+.icon {
+  line-height: 12px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12px;
+  flex-shrink: 0;
+}
+.in33M {
+  flex: 1;
+  font-size: var(--ios-caption-1-size);
+  line-height: 18px;
+  font-weight: 600;
+  font-family: var(--ios-body-2);
+}
+.timeLeftIndicator {
+  border-radius: var(--br-9xs);
+  background-color: var(--ios-brand-background-tint-rest);
+  width: 76px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-11xs) var(--padding-11xs)
+    var(--padding-7xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.am,
+.min {
+  position: relative;
+}
+.am {
+  letter-spacing: -0.23px;
+  line-height: 20px;
+}
+.min {
+  align-self: stretch;
+  font-size: var(--body-caption-regular-size);
+  line-height: 16px;
+  color: var(--ios-neutral-foreground-3-rest);
+}
+.time {
+  width: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.templateCalendarCardStatus {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-11xs);
+  max-height: 100%;
+  width: 4px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 44px;
+}
+.eventName {
+  position: relative;
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.title1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.shapeIcon,
+.subtractIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.shapeIcon {
+  width: 6px;
+  height: 6px;
+}
+.presenceBadgeFluent2 {
+  border-radius: var(--circular);
+  background-color: var(--ios-neutral-background-1-rest);
+  width: 6px;
+  height: 6px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.activityRingIcon {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  display: none;
+  z-index: 3;
+}
+.subtractIcon1 {
+  position: relative;
+  width: 5px;
+  height: 7px;
+  z-index: 1;
+  margin-top: -13px;
+}
+.avatarFluent2 {
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.elviaAtkins {
+  position: relative;
+  letter-spacing: -0.08px;
+  line-height: 18px;
+}
+.organizer {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.invitedYou {
+  position: relative;
+  font-size: var(--body-caption-regular-size);
+  line-height: 16px;
+  font-family: var(--font-helvetica);
+  color: var(--neutral-foreground-3-rest);
+  display: none;
+}
+.basicInfo,
+.organizerAndAttendeeInfo {
+  overflow: hidden;
+  display: flex;
+  gap: var(--gap-9xs);
+}
+.organizerAndAttendeeInfo {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--ios-caption-1-size);
+  color: var(--ios-neutral-foreground-3-rest);
+}
+.basicInfo {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.title {
+  flex-direction: row;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--ios-body-2-size);
+  color: var(--ios-neutral-foreground-1-rest);
+  font-family: var(--ios-body-2);
+}
+.templateCalendarCardListIt,
+.timeLeftIndicatorParent,
+.title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.timeLeftIndicatorParent {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.templateCalendarCardListIt {
+  align-self: stretch;
+  background-color: var(--ios-neutral-background-1-rest);
+  border-bottom: 1px solid var(--ios-neutral-stroke-2-rest);
+  flex-direction: row;
+  padding: 0 var(--padding-base) var(--padding-xs);
+  color: var(--ios-brand-foreground-1-rest);
+}
+.icon1,
+.in33M1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon1 {
+  line-height: 12px;
+  font-weight: 300;
+  width: 12px;
+  flex-shrink: 0;
+}
+.in33M1 {
+  align-self: stretch;
+  line-height: 16px;
+}
+.timeLeftIndicator1 {
+  border-radius: var(--br-9xs);
+  background-color: var(--brand-background-2-rest);
+  height: 20px;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-6xs) var(--padding-11xs)
+    var(--padding-7xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.am1,
+.min1 {
+  position: relative;
+}
+.am1 {
+  letter-spacing: -0.23px;
+  line-height: 20px;
+}
+.min1 {
+  align-self: stretch;
+  font-size: var(--body-caption-regular-size);
+  line-height: 16px;
+  color: var(--ios-neutral-foreground-3-rest);
+}
+.time1 {
+  width: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.templateCalendarCardStatus1 {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-11xs);
+  max-height: 100%;
+  width: 4px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 45px;
+}
+.eventName1 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+}
+.title3 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.shapeIcon1,
+.subtractIcon2 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.shapeIcon1 {
+  width: 6px;
+  height: 6px;
+}
+.presenceBadgeFluent21 {
+  border-radius: var(--circular);
+  background-color: var(--ios-neutral-background-1-rest);
+  width: 6px;
+  height: 6px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.activityRingIcon1 {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  display: none;
+  z-index: 3;
+}
+.subtractIcon3 {
+  position: relative;
+  width: 5.9px;
+  height: 7px;
+  z-index: 1;
+  margin-top: -13px;
+}
+.avatarFluent21 {
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.elviaAtkins1 {
+  position: relative;
+  letter-spacing: -0.08px;
+  line-height: 18px;
+}
+.organizer1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.invitedYou1 {
+  position: relative;
+  font-size: var(--body-caption-regular-size);
+  line-height: 16px;
+  font-family: var(--font-helvetica);
+  color: var(--neutral-foreground-3-rest);
+  display: none;
+}
+.organizerAndAttendeeInfo1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-9xs) 0 0;
+  gap: var(--gap-9xs);
+  font-size: var(--ios-caption-1-size);
+  color: var(--ios-neutral-foreground-3-rest);
+  font-family: var(--ios-body-2);
+}
+.basicInfo1,
+.title2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.basicInfo1 {
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+  font-size: var(--semibold-type14-size);
+  color: var(--secondary-500);
+  font-family: var(--body-caption-regular);
+}
+.title2 {
+  flex-direction: row;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--ios-body-2-size);
+  color: var(--ios-neutral-foreground-1-rest);
+  font-family: var(--ios-body-2);
+}
+.timeLeftIndicatorGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.templateCalendarCardListIt1 {
+  align-self: stretch;
+  background-color: var(--ios-neutral-background-1-rest);
+  border-bottom: 1px solid var(--ios-neutral-stroke-2-rest);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-base);
+}
+.icon2,
+.in33M2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon2 {
+  line-height: 12px;
+  font-weight: 300;
+  width: 12px;
+  flex-shrink: 0;
+}
+.in33M2 {
+  align-self: stretch;
+  line-height: 16px;
+}
+.timeLeftIndicator2 {
+  border-radius: var(--br-9xs);
+  background-color: var(--brand-background-2-rest);
+  height: 20px;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-6xs) var(--padding-11xs)
+    var(--padding-7xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.am2,
+.min2 {
+  position: relative;
+}
+.am2 {
+  letter-spacing: -0.23px;
+  line-height: 20px;
+}
+.min2 {
+  align-self: stretch;
+  flex: 1;
+  font-size: var(--body-caption-regular-size);
+  line-height: 16px;
+  color: var(--ios-neutral-foreground-3-rest);
+  display: flex;
+  align-items: center;
+}
+.time2 {
+  width: 72px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.templateCalendarCardStatus2 {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-11xs);
+  max-height: 100%;
+  width: 4px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 44px;
+}
+.eventName2 {
+  position: relative;
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.title5 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.shapeIcon2,
+.subtractIcon4 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.shapeIcon2 {
+  width: 6px;
+  height: 6px;
+}
+.presenceBadgeFluent22 {
+  border-radius: var(--circular);
+  background-color: var(--ios-neutral-background-1-rest);
+  width: 6px;
+  height: 6px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.activityRingIcon2 {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  display: none;
+}
+.avatarFluent22 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.elviaAtkins2 {
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+}
+.organizer2 {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.invitedYou2 {
+  position: relative;
+  line-height: 16px;
+  color: var(--neutral-foreground-3-rest);
+  display: none;
+}
+.basicInfo2,
+.organizerAndAttendeeInfo2 {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.organizerAndAttendeeInfo2 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-2xl) 0 0;
+  font-size: var(--body-caption-regular-size);
+  color: var(--ios-neutral-foreground-3-rest);
+  font-family: var(--font-helvetica);
+}
+.basicInfo2 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.timeLeftIndicatorContainer,
+.title4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.title4 {
+  flex: 1;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--ios-body-2-size);
+  color: var(--ios-neutral-foreground-1-rest);
+  font-family: var(--ios-body-2);
+}
+.timeLeftIndicatorContainer {
+  width: 287px;
+  align-items: center;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.templateCalendarCardListIt2 {
+  background-color: var(--ios-neutral-background-1-rest);
+  border-bottom: 1px solid var(--ios-neutral-stroke-2-rest);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs);
+}
+.bodySlot {
+  align-self: stretch;
+  height: 188px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--body-caption-regular-size);
+  color: var(--brand-foreground-2-rest);
+  font-family: var(--font-helvetica);
+}

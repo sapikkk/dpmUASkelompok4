@@ -1,0 +1,272 @@
+.time {
+  position: relative;
+  letter-spacing: -0.3px;
+  font-weight: 600;
+}
+.cellularConnectionIcon,
+.wifiIcon {
+  position: relative;
+  width: 17px;
+  height: 10.7px;
+}
+.wifiIcon {
+  width: 15.3px;
+  height: 11px;
+  min-height: 11px;
+}
+.capIcon {
+  position: absolute;
+  top: calc(50% - 1.8px);
+  right: -0.3px;
+  width: 1.3px;
+  height: 4px;
+  opacity: 0.4;
+  mix-blend-mode: normal;
+}
+.capacity {
+  position: absolute;
+  top: calc(50% - 3.5px);
+  right: 4px;
+  border-radius: 1.33px;
+  background-color: var(--color-black);
+  width: 18px;
+  height: 7px;
+}
+.battery {
+  position: relative;
+  border-radius: 2.67px;
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 22px;
+  height: 11px;
+  mix-blend-mode: normal;
+}
+.cellularConnectionParent,
+.statusBar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.statusBar {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-base) var(--padding-xs)
+    var(--padding-sm);
+  gap: var(--gap-xl);
+  font-family: var(--font-inter);
+}
+.image,
+.logo {
+  position: relative;
+}
+.logo {
+  margin: 0;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 108px;
+  flex-shrink: 0;
+}
+.image {
+  border-radius: var(--br-71xl);
+  background-color: var(--color-silver);
+  width: 28px;
+  height: 28px;
+}
+.logoParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-lgi) 0 0;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--primary-500);
+}
+.searchNormalIcon {
+  position: relative;
+  width: 28.1px;
+  height: 24px;
+  min-height: 24px;
+}
+.pantauProgresCucian {
+  flex: 1;
+  position: relative;
+  font-size: var(--semibold-type14-size);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  font-family: var(--body-caption-regular);
+  color: var(--secondary-400);
+  text-align: justify;
+}
+.search {
+  cursor: pointer;
+  border: 1px solid var(--color-lightsteelblue-400);
+  padding: var(--padding-xs) var(--padding-10xl) var(--padding-xs)
+    var(--padding-9xl);
+  background-color: transparent;
+  flex: 1;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+}
+.search:hover {
+  background-color: var(--color-lightsteelblue-300);
+  border: 1px solid var(--color-lightsteelblue-200);
+  box-sizing: border-box;
+}
+.filterIcon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  min-height: 48px;
+}
+.searchParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.bgIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 5px;
+  top: -5px;
+  transform: scale(1.025);
+}
+.wrapperBg {
+  position: absolute;
+  margin: 0 !important;
+  bottom: -178px;
+  left: -103.5px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.solusiTerbaikUntuk {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+}
+.nikmatiFasilitasPelayanan {
+  position: relative;
+  font-size: var(--body-caption-regular-size);
+  line-height: 160%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 256px;
+}
+.tittle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  z-index: 1;
+}
+.cuciSekarang {
+  position: relative;
+  font-size: var(--body-caption-regular-size);
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-family: var(--body-caption-regular);
+  color: var(--ios-neutral-background-1-rest);
+  text-align: center;
+}
+.buttonRent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-lgi) var(--padding-sm)
+    var(--padding-5xl);
+  background-color: var(--primary-500);
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.buttonRent:hover {
+  background-color: var(--color-dodgerblue-100);
+}
+.tittleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.carIcon {
+  position: relative;
+  width: 196px;
+  height: 56px;
+  object-fit: cover;
+  z-index: 1;
+}
+.carWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+}
+.ads,
+.frameParent,
+.statusBarParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.ads {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cornflowerblue-100);
+  overflow: hidden;
+  padding: var(--padding-base) var(--padding-16xl) var(--padding-9xs)
+    var(--padding-base);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-base);
+}
+.frameParent,
+.statusBarParent {
+  align-self: stretch;
+  gap: var(--gap-mini);
+  font-size: var(--bold-type16-size);
+  color: var(--ios-neutral-background-1-rest);
+}
+.statusBarParent {
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xl);
+  text-align: left;
+  font-size: var(--ios-body-2-size);
+  color: var(--color-black);
+  font-family: var(--body-caption-regular);
+}

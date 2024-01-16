@@ -1,0 +1,104 @@
+.markChild {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--primary-500);
+  width: 8px;
+  height: 8px;
+}
+.mark {
+  border-radius: var(--br-51xl);
+  background-color: var(--color-royalblue-300);
+  width: 16px;
+  height: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+}
+.creditCard {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+.visaIncLogo1Icon {
+  position: relative;
+  width: 30px;
+  height: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.creditCardParent {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.cardNumber,
+.creditCardParent,
+.markParent {
+  display: flex;
+  align-items: center;
+}
+.markParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.cardNumber {
+  position: relative;
+  font-size: var(--semibold-type14-size);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  width: 104px;
+}
+.frameGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.logomcIcon {
+  position: relative;
+  width: 19.8px;
+  height: 12.4px;
+}
+.logomcWrapper {
+  height: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.atmBersama1,
+.linkIcon {
+  position: relative;
+  width: 29px;
+  height: 17px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.linkIcon {
+  width: 28px;
+  height: 15px;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 var(--padding-12xs);
+  gap: var(--gap-11xs);
+  text-align: left;
+  font-size: var(--bold-type16-size);
+  color: var(--secondary-500);
+  font-family: var(--body-caption-regular);
+}

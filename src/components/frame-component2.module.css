@@ -1,0 +1,79 @@
+.cuciMobil {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+}
+.undercarriageIcon {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  object-fit: cover;
+  min-height: 12px;
+}
+.exteriorInterior {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+}
+.undercarriageParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.carIcon {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 14px;
+}
+.machineryPolishing {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+}
+.carParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.clipboardIcon {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  object-fit: cover;
+  min-height: 12px;
+}
+.min {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+}
+.clipboardParent,
+.cuciMobilParent,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.cuciMobilParent,
+.frameParent {
+  flex-direction: column;
+  gap: var(--gap-11xs);
+  font-size: var(--font-size-5xs);
+}
+.cuciMobilParent {
+  align-self: stretch;
+  gap: var(--gap-7xs);
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--ios-neutral-background-1-rest);
+  font-family: var(--font-inter);
+}

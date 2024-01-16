@@ -1,0 +1,209 @@
+.mark {
+  border-color: var(--color-aliceblue-100);
+  accent-color: #e5f1ff;
+  cursor: pointer;
+  margin: 0;
+  border-radius: var(--br-51xl);
+  background-color: var(--color-cornflowerblue-300);
+  width: 16px;
+  height: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+  opacity: 0.5;
+}
+.lastUpdatedToday,
+.pantauKuotaAntrian {
+  align-self: stretch;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pantauKuotaAntrian {
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.lastUpdatedToday {
+  font-size: var(--body-caption-regular-size);
+  line-height: 16px;
+  color: var(--ios-neutral-foreground-3-rest);
+}
+.stack {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonFluent2 {
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-background-subtle-rest);
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs);
+}
+.icon1 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonFluent21 {
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-background-subtle-rest);
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs);
+}
+.icon2 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonFluent22 {
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-background-subtle-rest);
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs);
+}
+.icon3 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonFluent23 {
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs);
+}
+.controls {
+  align-items: flex-start;
+}
+.controls,
+.nov,
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.title {
+  flex: 1;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+  min-width: 187px;
+}
+.nov {
+  align-self: stretch;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.icon4,
+.text {
+  position: relative;
+}
+.icon4 {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.buttonFluent24,
+.textWrapperForOffset {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xs) var(--padding-11xs);
+}
+.buttonFluent24 {
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs) var(--padding-xs);
+  gap: var(--gap-9xs);
+}
+.text1 {
+  position: relative;
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.textWrapperForOffset1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xs);
+}
+.chevronIcon {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.menuButtonFluent2 {
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs) var(--padding-3xs);
+  gap: var(--gap-9xs);
+}
+.buttons,
+.headerSlot {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  color: var(--neutral-foreground-3-rest);
+}
+.headerSlot {
+  align-self: stretch;
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--ios-body-2-size);
+  color: var(--ios-neutral-foreground-1-rest);
+  font-family: var(--ios-body-2);
+}

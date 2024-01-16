@@ -1,0 +1,445 @@
+.sedangPencucian,
+.viewAll {
+  position: relative;
+  font-weight: 600;
+}
+.sedangPencucian {
+  letter-spacing: -0.02em;
+  line-height: 150%;
+}
+.viewAll {
+  font-size: var(--body-caption-regular-size);
+  color: var(--primary-500);
+  text-align: right;
+  display: flex;
+  align-items: center;
+  height: 20px;
+}
+.sedangPencucianParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-5xs);
+  gap: var(--gap-xl);
+}
+.koenigsegg,
+.sport {
+  position: relative;
+  letter-spacing: -0.02em;
+}
+.koenigsegg {
+  flex: 1;
+  line-height: 150%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.sport {
+  align-self: stretch;
+  font-size: var(--body-caption-regular-size);
+  font-weight: 500;
+  color: var(--secondary-300);
+}
+.koenigseggParent {
+  align-self: stretch;
+  width: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.likeIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.frameContainer {
+  align-self: stretch;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-base) 0 var(--padding-mini);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.price {
+  width: 92px;
+  height: 36px;
+  display: none;
+}
+.carIcon {
+  position: absolute;
+  top: 0;
+  left: 29.5px;
+  width: 180px;
+  height: 56px;
+  object-fit: cover;
+}
+.shadow {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 24px;
+  left: -0.5px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0), #fff);
+  width: 240px;
+  height: 44px;
+  z-index: 1;
+}
+.carParent {
+  align-self: stretch;
+  position: relative;
+  height: 68px;
+}
+.carIcon1,
+.vuesaxboldprofile2userIcon {
+  position: relative;
+  width: 14px;
+  height: 14px;
+}
+.vuesaxboldprofile2userIcon {
+  display: none;
+}
+.carIcon1 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.drying {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.carGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.clipboardIcon {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  object-fit: cover;
+  min-height: 14px;
+}
+.min {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.clipboardParent {
+  flex: 1;
+  gap: var(--gap-9xs);
+}
+.clipboardParent,
+.frameParent1,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  width: 143px;
+  gap: var(--gap-mid);
+}
+.frameWrapper {
+  align-self: stretch;
+}
+.buttonRent,
+.check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.check {
+  position: relative;
+  font-size: var(--body-caption-regular-size);
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-family: var(--body-caption-regular);
+  color: var(--ios-neutral-background-1-rest);
+  text-align: center;
+  width: 68px;
+  flex-shrink: 0;
+}
+.buttonRent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--primary-500);
+  border-radius: var(--br-9xs);
+  width: 100px;
+  flex-direction: row;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.buttonRent:hover {
+  background-color: var(--color-dodgerblue-100);
+}
+.catalog1,
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameDiv {
+  align-self: stretch;
+  align-items: flex-end;
+  padding: 0 var(--padding-base) 0 var(--padding-mid);
+  gap: var(--gap-8xl);
+  font-size: var(--body-caption-regular-size);
+  color: var(--secondary-300);
+}
+.catalog1 {
+  border-radius: var(--br-3xs);
+  background-color: var(--ios-neutral-background-1-rest);
+  width: 240px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  padding: var(--padding-base) 0;
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  font-size: var(--bold-type16-size);
+}
+.likeIcon1 {
+  position: absolute;
+  top: 16px;
+  left: 200px;
+  width: 24px;
+  height: 24px;
+}
+.check1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 68px;
+  flex-shrink: 0;
+}
+.buttonRent1,
+.price1 {
+  position: absolute;
+  top: 234px;
+  height: 36px;
+}
+.buttonRent1 {
+  right: 15.5px;
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-500);
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+  text-align: center;
+}
+.price1 {
+  left: 16px;
+  width: 92px;
+  display: none;
+}
+.carIcon2 {
+  position: absolute;
+  top: 0;
+  left: 29.5px;
+  width: 180px;
+  height: 56px;
+  object-fit: cover;
+}
+.carContainer,
+.shadow1 {
+  position: absolute;
+  width: 240px;
+}
+.shadow1 {
+  top: 24px;
+  left: -0.5px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0), #fff);
+  height: 44px;
+  z-index: 1;
+}
+.carContainer {
+  top: 92px;
+  left: 0.5px;
+  height: 68px;
+}
+.min1,
+.vuesaxboldprofile2userIcon1 {
+  position: absolute;
+  top: 192.5px;
+  height: 14px;
+}
+.vuesaxboldprofile2userIcon1 {
+  left: 89px;
+  width: 14px;
+  display: none;
+}
+.min1 {
+  left: 107px;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  color: var(--secondary-300);
+  display: flex;
+  align-items: center;
+  width: 52px;
+}
+.koenigsegg1,
+.sport1 {
+  position: relative;
+  letter-spacing: -0.02em;
+}
+.koenigsegg1 {
+  flex: 1;
+  line-height: 150%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.sport1 {
+  font-size: var(--body-caption-regular-size);
+  font-weight: 500;
+  color: var(--secondary-300);
+}
+.koenigseggGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.carIcon3 {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.drying1 {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.carParent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  font-size: var(--body-caption-regular-size);
+  color: var(--secondary-300);
+}
+.clipboardIcon1,
+.shadow2 {
+  position: absolute;
+  margin: 0 !important;
+}
+.clipboardIcon1 {
+  right: 0.5px;
+  bottom: 63.5px;
+  width: 14px;
+  height: 14px;
+  object-fit: cover;
+}
+.shadow2 {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: -0.5px;
+  background: linear-gradient(270deg, #fff, rgba(255, 255, 255, 0));
+  width: 100%;
+  z-index: 2;
+}
+.frameParent2 {
+  position: absolute;
+  top: -16px;
+  left: 10.5px;
+  height: 286px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-5xl) var(--padding-44xl)
+    var(--padding-7xs);
+  box-sizing: border-box;
+  gap: var(--gap-113xl);
+  font-size: var(--bold-type16-size);
+  color: var(--secondary-500);
+}
+.catalog3 {
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--ios-neutral-background-1-rest);
+  width: 240px;
+  height: 286px;
+  overflow: hidden;
+  flex-shrink: 0;
+  color: var(--ios-neutral-background-1-rest);
+}
+.catalogPopular,
+.frameGroup {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.catalogPopular {
+  width: 343px;
+  overflow-x: auto;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-2xl);
+  font-size: var(--body-caption-regular-size);
+  color: var(--secondary-500);
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+}
+.line {
+  position: absolute;
+  bottom: 8px;
+  left: calc(50% - 67.5px);
+  border-radius: var(--br-81xl);
+  background-color: var(--color-black);
+  width: 135px;
+  height: 5px;
+}
+.indicator {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--ios-neutral-background-1-rest);
+  height: 30px;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--semibold-type14-size);
+  color: var(--secondary-300);
+  font-family: var(--body-caption-regular);
+}

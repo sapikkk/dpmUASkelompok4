@@ -1,0 +1,181 @@
+.icon,
+.in33M {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  line-height: 12px;
+  font-weight: 300;
+  width: 12px;
+  flex-shrink: 0;
+}
+.in33M {
+  align-self: stretch;
+  line-height: 16px;
+}
+.timeLeftIndicator {
+  border-radius: var(--br-9xs);
+  background-color: var(--brand-background-2-rest);
+  height: 20px;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-6xs) var(--padding-11xs)
+    var(--padding-7xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.am {
+  position: relative;
+  line-height: 20px;
+}
+.min,
+.time {
+  display: flex;
+}
+.min {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--body-caption-regular-size);
+  line-height: 16px;
+  color: var(--ios-neutral-foreground-3-rest);
+  align-items: center;
+}
+.time {
+  width: 72px;
+  height: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.templateCalendarCardStatus {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-11xs);
+  max-height: 100%;
+  width: 4px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 44px;
+}
+.eventName {
+  position: relative;
+  line-height: 20px;
+}
+.title1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.shapeIcon,
+.subtractIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.shapeIcon {
+  width: 6px;
+  height: 6px;
+}
+.presenceBadgeFluent2 {
+  border-radius: var(--circular);
+  background-color: var(--ios-neutral-background-1-rest);
+  width: 6px;
+  height: 6px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.activityRingIcon {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  display: none;
+}
+.avatarFluent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.elviaAtkins {
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+}
+.organizer {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.invitedYou {
+  position: relative;
+  line-height: 16px;
+  color: var(--neutral-foreground-3-rest);
+  display: none;
+}
+.organizerAndAttendeeInfo {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  font-size: var(--body-caption-regular-size);
+  color: var(--ios-neutral-foreground-3-rest);
+}
+.basicInfo,
+.title {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.basicInfo {
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.title {
+  flex-direction: row;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--semibold-type14-size);
+  color: var(--ios-neutral-foreground-1-rest);
+}
+.timeLeftIndicatorParent {
+  width: 186px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.templateCalendarCardListIt {
+  align-self: stretch;
+  background-color: var(--ios-neutral-background-1-rest);
+  border-bottom: 1px solid var(--ios-neutral-stroke-2-rest);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-base);
+  text-align: center;
+  font-size: var(--body-caption-regular-size);
+  color: var(--brand-foreground-2-rest);
+  font-family: var(--font-helvetica);
+}

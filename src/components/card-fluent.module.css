@@ -1,0 +1,1312 @@
+.calendar1Title,
+.lastUpdatedThursday {
+  align-self: stretch;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.calendar1Title {
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.lastUpdatedThursday {
+  font-size: var(--body-caption-regular-size);
+  line-height: 16px;
+  color: var(--ios-neutral-foreground-3-rest);
+}
+.stack {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 173px;
+}
+.icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonFluent2 {
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-background-subtle-rest);
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs);
+}
+.icon1 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonFluent21 {
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-background-subtle-rest);
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs);
+}
+.icon2 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonFluent22 {
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-background-subtle-rest);
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs);
+}
+.icon3 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonFluent23 {
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs);
+}
+.controls,
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.title {
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: var(--gap-xs);
+}
+.icon4,
+.text {
+  position: relative;
+}
+.icon4 {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.buttonFluent24,
+.textWrapperForOffset {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xs) var(--padding-11xs);
+}
+.buttonFluent24 {
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs) var(--padding-xs);
+  gap: var(--gap-9xs);
+}
+.text1 {
+  position: relative;
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.textWrapperForOffset1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xs);
+}
+.chevronIcon {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.menuButtonFluent2 {
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs) var(--padding-2xs);
+  gap: var(--gap-9xs);
+}
+.buttons,
+.headerSlot {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.buttons {
+  flex-direction: row;
+  color: var(--neutral-foreground-3-rest);
+}
+.headerSlot {
+  align-self: stretch;
+  flex-direction: column;
+}
+.icon5,
+.in33M {
+  position: relative;
+}
+.icon5 {
+  line-height: 12px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12px;
+  flex-shrink: 0;
+}
+.in33M {
+  font-size: var(--ios-caption-1-size);
+  line-height: 18px;
+  font-weight: 600;
+  font-family: var(--ios-body-2);
+}
+.timeLeftIndicator {
+  border-radius: var(--br-9xs);
+  background-color: var(--ios-brand-background-tint-rest);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-11xs) var(--padding-11xs)
+    var(--padding-7xs);
+  gap: var(--gap-8xs);
+}
+.am,
+.min {
+  position: relative;
+}
+.am {
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+.min {
+  align-self: stretch;
+  font-size: var(--body-caption-regular-size);
+  line-height: 16px;
+  color: var(--ios-neutral-foreground-3-rest);
+}
+.time {
+  width: 73px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.templateCalendarCardStatus {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-11xs);
+  max-height: 100%;
+  width: 4px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 44px;
+}
+.eventName {
+  position: relative;
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.title2 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.shapeIcon,
+.subtractIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.shapeIcon {
+  width: 6px;
+  height: 6px;
+}
+.presenceBadgeFluent2 {
+  border-radius: var(--circular);
+  background-color: var(--ios-neutral-background-1-rest);
+  width: px;
+  height: px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.activityRingIcon {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  display: none;
+  z-index: 3;
+}
+.subtractIcon1 {
+  position: relative;
+  width: 5px;
+  height: 7px;
+  z-index: 1;
+  margin-top: -13px;
+}
+.avatarFluent2 {
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.elviaAtkins {
+  position: relative;
+  letter-spacing: -0.08px;
+  line-height: 18px;
+}
+.organizer {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.invitedYou {
+  position: relative;
+  font-size: var(--body-caption-regular-size);
+  line-height: 16px;
+  font-family: var(--font-helvetica);
+  color: var(--neutral-foreground-3-rest);
+  display: none;
+}
+.basicInfo,
+.organizerAndAttendeeInfo {
+  overflow: hidden;
+  display: flex;
+  gap: var(--gap-9xs);
+}
+.organizerAndAttendeeInfo {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--ios-caption-1-size);
+  color: var(--ios-neutral-foreground-3-rest);
+}
+.basicInfo {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.title1 {
+  flex-direction: row;
+  gap: var(--gap-smi);
+  text-align: left;
+  font-size: var(--ios-body-2-size);
+  color: var(--ios-neutral-foreground-1-rest);
+  font-family: var(--ios-body-2);
+}
+.templateCalendarCardListIt,
+.timeLeftIndicatorParent,
+.title1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.timeLeftIndicatorParent {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.templateCalendarCardListIt {
+  align-self: stretch;
+  background-color: var(--ios-neutral-background-1-rest);
+  border-bottom: 1px solid var(--ios-neutral-stroke-2-rest);
+  flex-direction: row;
+  padding: 0 var(--padding-base) var(--padding-xs);
+  color: var(--ios-brand-foreground-1-rest);
+}
+.icon6,
+.in33M1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon6 {
+  line-height: 12px;
+  font-weight: 300;
+  width: 12px;
+  flex-shrink: 0;
+}
+.in33M1 {
+  align-self: stretch;
+  line-height: 16px;
+}
+.timeLeftIndicator1 {
+  border-radius: var(--br-9xs);
+  background-color: var(--brand-background-2-rest);
+  height: 20px;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-6xs) var(--padding-11xs)
+    var(--padding-7xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.am1,
+.min1 {
+  position: relative;
+}
+.am1 {
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+.min1 {
+  align-self: stretch;
+  font-size: var(--body-caption-regular-size);
+  line-height: 16px;
+  color: var(--ios-neutral-foreground-3-rest);
+}
+.time1 {
+  width: 73px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.templateCalendarCardStatus1 {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-11xs);
+  max-height: 100%;
+  width: 4px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 45px;
+}
+.eventName1 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+}
+.title4 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.shapeIcon1,
+.subtractIcon2 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.shapeIcon1 {
+  width: 6px;
+  height: 6px;
+}
+.presenceBadgeFluent21 {
+  border-radius: var(--circular);
+  background-color: var(--ios-neutral-background-1-rest);
+  width: px;
+  height: px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.activityRingIcon1 {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  display: none;
+  z-index: 3;
+}
+.subtractIcon3 {
+  position: relative;
+  width: 5.9px;
+  height: 7px;
+  z-index: 1;
+  margin-top: -13px;
+}
+.avatarFluent21 {
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.elviaAtkins1 {
+  position: relative;
+  letter-spacing: -0.08px;
+  line-height: 18px;
+}
+.organizer1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.invitedYou1 {
+  position: relative;
+  font-size: var(--body-caption-regular-size);
+  line-height: 16px;
+  font-family: var(--font-helvetica);
+  color: var(--neutral-foreground-3-rest);
+  display: none;
+}
+.organizerAndAttendeeInfo1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-9xs) 0 0;
+  gap: var(--gap-9xs);
+  font-size: var(--ios-caption-1-size);
+  color: var(--ios-neutral-foreground-3-rest);
+  font-family: var(--ios-body-2);
+}
+.basicInfo1,
+.title3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.basicInfo1 {
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+  font-size: var(--semibold-type14-size);
+  color: var(--secondary-500);
+  font-family: var(--body-caption-regular);
+}
+.title3 {
+  flex-direction: row;
+  gap: var(--gap-smi);
+  text-align: left;
+  font-size: var(--ios-body-2-size);
+  color: var(--ios-neutral-foreground-1-rest);
+  font-family: var(--ios-body-2);
+}
+.timeLeftIndicatorGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.templateCalendarCardListIt1 {
+  align-self: stretch;
+  background-color: var(--ios-neutral-background-1-rest);
+  border-bottom: 1px solid var(--ios-neutral-stroke-2-rest);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-base);
+}
+.icon7,
+.in33M2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon7 {
+  line-height: 12px;
+  font-weight: 300;
+  width: 12px;
+  flex-shrink: 0;
+}
+.in33M2 {
+  align-self: stretch;
+  line-height: 16px;
+}
+.timeLeftIndicator2 {
+  border-radius: var(--br-9xs);
+  background-color: var(--brand-background-2-rest);
+  height: 20px;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-6xs) var(--padding-11xs)
+    var(--padding-7xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.am2,
+.min2 {
+  position: relative;
+}
+.am2 {
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+.min2 {
+  align-self: stretch;
+  flex: 1;
+  font-size: var(--body-caption-regular-size);
+  line-height: 16px;
+  color: var(--ios-neutral-foreground-3-rest);
+  display: flex;
+  align-items: center;
+}
+.time2 {
+  width: 73px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.templateCalendarCardStatus2 {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-11xs);
+  max-height: 100%;
+  width: 4px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 44px;
+}
+.eventName2 {
+  position: relative;
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.title6 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.shapeIcon2,
+.subtractIcon4 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.shapeIcon2 {
+  width: 6px;
+  height: 6px;
+}
+.presenceBadgeFluent22 {
+  border-radius: var(--circular);
+  background-color: var(--ios-neutral-background-1-rest);
+  width: px;
+  height: px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.activityRingIcon2 {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  display: none;
+}
+.avatarFluent22 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.elviaAtkins2 {
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+}
+.organizer2 {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.invitedYou2 {
+  position: relative;
+  line-height: 16px;
+  color: var(--neutral-foreground-3-rest);
+  display: none;
+}
+.organizerAndAttendeeInfo2 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  font-size: var(--body-caption-regular-size);
+  color: var(--ios-neutral-foreground-3-rest);
+  font-family: var(--font-helvetica);
+}
+.basicInfo2,
+.title5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.basicInfo2 {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.title5 {
+  flex-direction: row;
+  gap: var(--gap-smi);
+  text-align: left;
+  font-size: var(--ios-body-2-size);
+  color: var(--ios-neutral-foreground-1-rest);
+  font-family: var(--ios-body-2);
+}
+.timeLeftIndicatorContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.templateCalendarCardListIt2 {
+  align-self: stretch;
+  background-color: var(--ios-neutral-background-1-rest);
+  border-bottom: 1px solid var(--ios-neutral-stroke-2-rest);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-base);
+}
+.icon8,
+.in33M3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon8 {
+  line-height: 12px;
+  font-weight: 300;
+  width: 12px;
+  flex-shrink: 0;
+}
+.in33M3 {
+  align-self: stretch;
+  line-height: 16px;
+}
+.timeLeftIndicator3 {
+  border-radius: var(--br-9xs);
+  background-color: var(--brand-background-2-rest);
+  height: 20px;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-6xs) var(--padding-11xs)
+    var(--padding-7xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.am3,
+.min3 {
+  position: relative;
+}
+.am3 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+.min3 {
+  align-self: stretch;
+  flex: 1;
+  font-size: var(--body-caption-regular-size);
+  line-height: 16px;
+  color: var(--ios-neutral-foreground-3-rest);
+  display: flex;
+  align-items: center;
+}
+.time3 {
+  width: 73px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.templateCalendarCardStatus3 {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-11xs);
+  max-height: 100%;
+  width: 4px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 44px;
+}
+.eventName3 {
+  position: relative;
+  line-height: 20px;
+}
+.title8 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.shapeIcon3,
+.subtractIcon5 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.shapeIcon3 {
+  width: 6px;
+  height: 6px;
+}
+.presenceBadgeFluent23 {
+  border-radius: var(--circular);
+  background-color: var(--ios-neutral-background-1-rest);
+  width: px;
+  height: px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.activityRingIcon3 {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  display: none;
+}
+.avatarFluent23 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.elviaAtkins3 {
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+}
+.organizer3 {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.invitedYou3 {
+  position: relative;
+  line-height: 16px;
+  color: var(--neutral-foreground-3-rest);
+  display: none;
+}
+.organizerAndAttendeeInfo3 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  font-size: var(--body-caption-regular-size);
+  color: var(--ios-neutral-foreground-3-rest);
+}
+.basicInfo3,
+.title7 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.basicInfo3 {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.title7 {
+  flex-direction: row;
+  gap: var(--gap-smi);
+  text-align: left;
+  font-size: var(--semibold-type14-size);
+  color: var(--ios-neutral-foreground-1-rest);
+}
+.frameDiv,
+.templateCalendarCardListIt3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameDiv {
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.templateCalendarCardListIt3 {
+  align-self: stretch;
+  background-color: var(--ios-neutral-background-1-rest);
+  border-bottom: 1px solid var(--ios-neutral-stroke-2-rest);
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-base);
+}
+.icon9,
+.in33M4 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon9 {
+  line-height: 12px;
+  font-weight: 300;
+  width: 12px;
+  flex-shrink: 0;
+}
+.in33M4 {
+  align-self: stretch;
+  line-height: 16px;
+}
+.timeLeftIndicator4 {
+  border-radius: var(--br-9xs);
+  background-color: var(--brand-background-2-rest);
+  height: 20px;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-6xs) var(--padding-11xs)
+    var(--padding-7xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.am4,
+.min4 {
+  position: relative;
+}
+.am4 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+.min4 {
+  align-self: stretch;
+  flex: 1;
+  font-size: var(--body-caption-regular-size);
+  line-height: 16px;
+  color: var(--ios-neutral-foreground-3-rest);
+  display: flex;
+  align-items: center;
+}
+.time4 {
+  width: 73px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.templateCalendarCardStatus4 {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-11xs);
+  max-height: 100%;
+  width: 4px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 44px;
+}
+.eventName4 {
+  position: relative;
+  line-height: 20px;
+}
+.title10 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.shapeIcon4,
+.subtractIcon6 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.shapeIcon4 {
+  width: 6px;
+  height: 6px;
+}
+.presenceBadgeFluent24 {
+  border-radius: var(--circular);
+  background-color: var(--ios-neutral-background-1-rest);
+  width: px;
+  height: px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.activityRingIcon4 {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  display: none;
+}
+.avatarFluent24 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.elviaAtkins4 {
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+}
+.organizer4 {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.invitedYou4 {
+  position: relative;
+  line-height: 16px;
+  color: var(--neutral-foreground-3-rest);
+  display: none;
+}
+.organizerAndAttendeeInfo4 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  font-size: var(--body-caption-regular-size);
+  color: var(--ios-neutral-foreground-3-rest);
+}
+.basicInfo4,
+.title9 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.basicInfo4 {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.title9 {
+  flex-direction: row;
+  gap: var(--gap-smi);
+  text-align: left;
+  font-size: var(--semibold-type14-size);
+  color: var(--ios-neutral-foreground-1-rest);
+}
+.timeLeftIndicatorParent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.templateCalendarCardListIt4 {
+  align-self: stretch;
+  background-color: var(--ios-neutral-background-1-rest);
+  border-bottom: 1px solid var(--ios-neutral-stroke-2-rest);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-base);
+}
+.icon10,
+.in33M5 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon10 {
+  line-height: 12px;
+  font-weight: 300;
+  width: 12px;
+  flex-shrink: 0;
+}
+.in33M5 {
+  align-self: stretch;
+  line-height: 16px;
+}
+.timeLeftIndicator5 {
+  border-radius: var(--br-9xs);
+  background-color: var(--brand-background-2-rest);
+  height: 20px;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-6xs) var(--padding-11xs)
+    var(--padding-7xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.am5,
+.min5 {
+  position: relative;
+}
+.am5 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+.min5 {
+  align-self: stretch;
+  flex: 1;
+  font-size: var(--body-caption-regular-size);
+  line-height: 16px;
+  color: var(--ios-neutral-foreground-3-rest);
+  display: flex;
+  align-items: center;
+}
+.time5 {
+  width: 73px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.templateCalendarCardStatus5 {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-11xs);
+  max-height: 100%;
+  width: 4px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 44px;
+}
+.eventName5 {
+  position: relative;
+  line-height: 20px;
+}
+.title12 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.shapeIcon5,
+.subtractIcon7 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.shapeIcon5 {
+  width: 6px;
+  height: 6px;
+}
+.presenceBadgeFluent25 {
+  border-radius: var(--circular);
+  background-color: var(--ios-neutral-background-1-rest);
+  width: px;
+  height: px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.activityRingIcon5 {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  display: none;
+}
+.avatarFluent25 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.elviaAtkins5 {
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+}
+.organizer5 {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.invitedYou5 {
+  position: relative;
+  line-height: 16px;
+  color: var(--neutral-foreground-3-rest);
+  display: none;
+}
+.organizerAndAttendeeInfo5 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  font-size: var(--body-caption-regular-size);
+  color: var(--ios-neutral-foreground-3-rest);
+}
+.basicInfo5,
+.title11 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.basicInfo5 {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.title11 {
+  flex-direction: row;
+  gap: var(--gap-smi);
+  text-align: left;
+  font-size: var(--semibold-type14-size);
+  color: var(--ios-neutral-foreground-1-rest);
+}
+.timeLeftIndicatorParent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.bodySlot,
+.templateCalendarCardListIt5 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.templateCalendarCardListIt5 {
+  background-color: var(--ios-neutral-background-1-rest);
+  border-bottom: 1px solid var(--ios-neutral-stroke-2-rest);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-base);
+}
+.bodySlot {
+  height: 188px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--body-caption-regular-size);
+  color: var(--brand-foreground-2-rest);
+  font-family: var(--font-helvetica);
+}
+.text2 {
+  position: relative;
+  letter-spacing: -0.23px;
+  line-height: 20px;
+}
+.cardFluent2,
+.footerSlot {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0;
+  color: var(--ios-brand-foreground-1-rest);
+}
+.cardFluent2 {
+  border-radius: var(--br-5xs);
+  background-color: var(--ios-neutral-background-1-rest);
+  box-shadow: var(--light-shadow-04);
+  flex-direction: column;
+  padding: var(--padding-base);
+  gap: var(--gap-5xs);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--ios-body-2-size);
+  color: var(--ios-neutral-foreground-1-rest);
+  font-family: var(--ios-body-2);
+}

@@ -1,0 +1,285 @@
+.frameChild {
+  position: relative;
+  border-radius: var(--br-11xs);
+  width: 9px;
+  height: 17px;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.logo {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.frameGroup {
+  width: 130px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.imageIcon {
+  position: relative;
+  border-radius: var(--br-71xl);
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  min-height: 28px;
+}
+.frameParent,
+.iphone13Mini3Inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.iphone13Mini3Inner {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl) 0 var(--padding-9xl);
+  box-sizing: border-box;
+}
+.paymentMethod1,
+.pleaseEnterYour {
+  position: relative;
+  letter-spacing: -0.02em;
+}
+.paymentMethod1 {
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  width: 156px;
+}
+.pleaseEnterYour {
+  font-size: var(--body-caption-regular-size);
+  font-weight: 500;
+  color: var(--secondary-300);
+}
+.paymentMethodParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-9xs);
+}
+.cardNumber,
+.creditCard,
+.paymentMethodInner {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.paymentMethodInner {
+  height: 52px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.cardNumber,
+.creditCard {
+  border-radius: var(--br-3xs);
+  align-items: center;
+}
+.cardNumber {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--ios-neutral-background-1-rest);
+  height: 56px;
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-5xl);
+  box-sizing: border-box;
+  font-family: var(--body-caption-regular);
+  font-weight: 500;
+  font-size: var(--body-caption-regular-size);
+  color: var(--secondary-300);
+  min-width: 158px;
+}
+.creditCard {
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: column;
+  padding: var(--padding-mini) var(--padding-mini) var(--padding-base);
+  gap: var(--gap-xs);
+}
+.paypalIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dana {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 90px;
+}
+.danaWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ewalletdanaIcon {
+  position: relative;
+  border-radius: 16px;
+  width: 57px;
+  height: 41px;
+  object-fit: cover;
+}
+.paypal {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-3xs) var(--padding-7xs)
+    var(--padding-base);
+  gap: var(--gap-5xs);
+  font-size: var(--semibold-type14-size);
+}
+.paypalIcon1 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.linkaja,
+.paypalParent {
+  display: flex;
+  align-items: center;
+}
+.linkaja {
+  width: calc(100% - 73px);
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--body-caption-regular);
+  font-size: var(--semibold-type14-size);
+  background-color: transparent;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  color: var(--secondary-500);
+  text-align: left;
+  height: 20px;
+  min-width: 54px;
+}
+.paypalParent {
+  width: 114px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.ewalletlinkajaIcon {
+  position: relative;
+  width: 57px;
+  height: 41px;
+  object-fit: cover;
+}
+.bitcoin,
+.bitcoinWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.bitcoin {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-100);
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-8xs) var(--padding-3xs) var(--padding-7xs)
+    var(--padding-base);
+  gap: var(--gap-xl);
+}
+.bitcoinWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-lgi);
+}
+.pay {
+  position: relative;
+  font-size: var(--body-caption-regular-size);
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-family: var(--body-caption-regular);
+  color: var(--ios-neutral-background-1-rest);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 88px;
+  flex-shrink: 0;
+}
+.buttonRent,
+.iphone13Mini3,
+.paymentMethod {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.buttonRent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--primary-500);
+  border-radius: var(--br-9xs);
+  width: 120px;
+  flex-direction: row;
+  justify-content: center;
+}
+.buttonRent:hover {
+  background-color: var(--color-dodgerblue-100);
+}
+.iphone13Mini3,
+.paymentMethod {
+  background-color: var(--ios-neutral-background-1-rest);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  font-family: var(--body-caption-regular);
+}
+.paymentMethod {
+  border-radius: var(--br-3xs);
+  width: 327px;
+  padding: var(--padding-base) var(--padding-base) 126px;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--bold-type16-size);
+  color: var(--secondary-500);
+}
+.iphone13Mini3 {
+  position: relative;
+  width: 100%;
+  height: 710px;
+  padding: var(--padding-12xl) 0 0;
+  gap: var(--gap-lgi);
+  letter-spacing: normal;
+  font-size: var(--font-size-5xl);
+  color: var(--primary-500);
+}

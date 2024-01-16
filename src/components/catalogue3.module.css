@@ -1,0 +1,211 @@
+.allVehicle,
+.quickWash {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+}
+.quickWash {
+  line-height: 150%;
+  font-weight: 600;
+  white-space: pre-wrap;
+}
+.allVehicle {
+  font-size: var(--body-caption-regular-size);
+  font-weight: 500;
+  color: var(--secondary-300);
+}
+.quickWashParent {
+  width: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.vuesaxlinearheartIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.shadow {
+  position: relative;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0), #fff);
+  width: 221px;
+  height: 44px;
+  display: none;
+}
+.hoursIcon {
+  position: relative;
+  width: 101px;
+  height: 101px;
+  object-fit: cover;
+}
+.hoursWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.vuesaxboldgasStationIcon {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  min-height: 14px;
+}
+.l {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.vuesaxboldgasStationParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.carIcon {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 14px;
+}
+.manual {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.carParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.vuesaxboldprofile2userIcon {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  min-height: 14px;
+}
+.people {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.frameContainer,
+.frameGroup,
+.vuesaxboldprofile2userParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.frameContainer,
+.frameGroup {
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--body-caption-regular-size);
+  color: var(--secondary-300);
+}
+.rp65000 {
+  font-weight: 600;
+}
+.span,
+.wash {
+  font-size: var(--body-caption-regular-size);
+  font-weight: 500;
+  color: var(--color-darkgray);
+}
+.rp65000Wash,
+.rp70000 {
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.rp70000 {
+  font-size: var(--semibold-type14-size);
+  text-decoration: line-through;
+  font-weight: 600;
+  color: var(--color-darkgray);
+  display: flex;
+  align-items: center;
+  width: 88px;
+  white-space: nowrap;
+}
+.rp65000WashParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.rentalNow {
+  position: relative;
+  font-size: var(--body-caption-regular-size);
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-family: var(--body-caption-regular);
+  color: var(--ios-neutral-background-1-rest);
+  text-align: center;
+}
+.buttonRent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--primary-500);
+  border-radius: var(--br-9xs);
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.buttonRent:hover {
+  background-color: var(--color-dodgerblue-100);
+}
+.catalogue1,
+.frameDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+  font-size: var(--bold-type16-size);
+}
+.catalogue1 {
+  border-radius: var(--br-3xs);
+  background-color: var(--ios-neutral-background-1-rest);
+  width: 271px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-base) var(--padding-4xs) var(--padding-base)
+    var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--semibold-type14-size);
+  color: var(--secondary-500);
+  font-family: var(--body-caption-regular);
+}

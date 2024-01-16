@@ -1,0 +1,164 @@
+.frameChild {
+  position: relative;
+  border-radius: var(--br-11xs);
+  width: 9px;
+  height: 17px;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.logo {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.frameGroup {
+  width: 130px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.imageIcon {
+  position: relative;
+  border-radius: var(--br-71xl);
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  min-height: 28px;
+}
+.frameParent,
+.iphone13Mini2Inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent {
+  flex: 1;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+}
+.iphone13Mini2Inner {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 var(--padding-5xs);
+}
+.estimatedTime {
+  position: relative;
+  line-height: 150%;
+}
+.estimatedTime24MinWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xs);
+  text-align: right;
+  font-size: var(--body-caption-regular-size);
+  color: #989db1;
+}
+.dashboardIcon {
+  position: relative;
+  width: 173px;
+  height: 173px;
+  object-fit: cover;
+}
+.iphone13Mini2Child {
+  position: relative;
+  width: 304px;
+  height: 8px;
+  object-fit: contain;
+}
+.penyiraman {
+  position: relative;
+  line-height: 150%;
+  color: var(--color-dodgerblue-200);
+}
+.pemberian,
+.sabun {
+  margin: 0;
+}
+.pemberianSabun {
+  color: var(--color-dodgerblue-200);
+}
+.pemberianSabun,
+.penyikatan,
+.penyikatan1 {
+  position: relative;
+  line-height: 150%;
+}
+.complete,
+.job {
+  margin: 0;
+}
+.jobComplete {
+  position: relative;
+  line-height: 150%;
+  text-align: right;
+}
+.penyiramanParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-base) 0 var(--padding-mini);
+  font-size: var(--font-size-5xs);
+  color: var(--colors-grey-grey-150);
+}
+.checkout {
+  position: relative;
+  font-size: var(--body-caption-regular-size);
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-family: var(--body-caption-regular);
+  color: var(--ios-neutral-background-1-rest);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 88px;
+  flex-shrink: 0;
+}
+.buttonRent,
+.iphone13Mini2 {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.buttonRent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--primary-500);
+  border-radius: var(--br-9xs);
+  width: 120px;
+  flex-direction: row;
+  justify-content: center;
+}
+.iphone13Mini2 {
+  position: relative;
+  background-color: var(--ios-neutral-background-1-rest);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 91px var(--padding-xl) 37px;
+  gap: var(--gap-lgi);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--primary-500);
+  font-family: var(--body-caption-regular);
+}
